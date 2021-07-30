@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Post request in VS "
+} 
+
+### 
+
+DELETE http://localhost:3001/api/notes/2
